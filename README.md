@@ -16,7 +16,7 @@
 
 <h3 id="links">Links</h3>
     <ul>
-        <li>Live Site URL: <a href="">Github search app</a></li>
+        <li>Live Site URL: <a href="https://tkart707-github-user-ap.netlify.app/" target="_blank">Github search app</a></li>
     </ul>
 <h3 id="built-with">Built with</h3>
     <ul>
