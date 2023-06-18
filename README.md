@@ -14,7 +14,7 @@
 <h2 id="overview">Overview</h2>
 <p>This is the github user app where you can search users and see some important information about them.</p>
 
-<h3 id="links">Links</h3>
+<h2 id="links">Links</h2>
     <ul>
         <li>Live Site URL: <a href="https://tkart707-github-user-ap.netlify.app/" target="_blank">Github search app</a></li>
     </ul>
