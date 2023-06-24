@@ -25,7 +25,7 @@
         <li>CSS Grid</li>
     </ul>
 <h3 id="personal-development">Personal development</h3>
-<p>This is my second React project. I learned how to memorize a component, get information from API, make a CSS grid layout, work with icons and so on.In the end, it was a good workout.</p>
+<p>This is my second React project. I learned how to optimization re-render, get information from API, make a CSS grid layout, work with icons and so on.In the end, it was a good workout.</p>
 
 <h2 id="author">Author</h2>
     <ul>
