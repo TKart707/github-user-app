@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState, useEffect, useMemo, useCallback } from "react";
 import { GlobalStyles, lightMode, darkMode } from "./themes";
 import styled, { ThemeProvider } from "styled-components";
 import Header from "./components/Header";
@@ -16,7 +16,6 @@ function App() {
   const Memoizedheader = useMemo(() => {
     return <Header modeToggle={modeToggle} setModeToggle={setModeToggle} />;
   }, [modeToggle]);
-
 
   // Fetch function
   const fetchData = async () => {
@@ -40,14 +39,11 @@ function App() {
     fetchData();
   }, []);
 
-  // Display fetch data cases result
+
   if (loading) {
     return <h1>Loading...</h1>;
   }
 
-  // if (error) {
-  //   return <h1>`There is a problem fetching the post data - {error}`</h1>;
-  // }
 
   return (
     <ThemeProvider theme={modeToggle ? darkMode : lightMode}>

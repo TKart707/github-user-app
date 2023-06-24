@@ -1,10 +1,11 @@
-import React from "react";
+import React, { memo } from "react";
 import styled from "styled-components";
 import { Name } from "./Name";
 import Statistic from "./Statistic";
 import Address from "./Address";
 
 const Info = ({ userData, modeToggle }) => {
+
   return (
     <Container>
       <Name userData={userData} />
@@ -14,7 +15,7 @@ const Info = ({ userData, modeToggle }) => {
   );
 };
 
-export default Info;
+export default memo(Info);
 
 const Container = styled.div`
   display: grid;
